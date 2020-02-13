@@ -311,6 +311,7 @@ int main(int argc, const char *argv[])
 
     // Saves the image
     std::string extension = config.mOutputName.substr(config.mOutputName.length() - 3, 3);
+    printf("Saving to %s\n", config.mOutputName.c_str());
 
     if(extension == "bmp")
         fbuffer.SaveBMP(config.mOutputName.c_str(), 2.2f /*gamma*/);

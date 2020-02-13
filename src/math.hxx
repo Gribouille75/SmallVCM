@@ -26,6 +26,7 @@
 #define __MATH_HXX__
 
 #include <cmath>
+#include <algorithm>
 // for portability issues
 #define PI_F     3.14159265358979f
 #define INV_PI_F (1.f / PI_F)
